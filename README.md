@@ -2,11 +2,18 @@
 
 A sample hair business page to showcase appointment scheduling capabilities and email automation.
 
-## How to Run
 
-1. Open **XAMPP**.
-2. Start the **Apache** and **MySQL** servers.
-3. Start the React development server:
+## Prequisites
+XAMP
+Npm
+MySQL
+
+
+## How to Run
+1. Change database connection to your own MySQL database
+2. Open **XAMPP**.
+3. Start the **Apache** and **MySQL** servers.
+4. Start the React development server:
 
    ```bash
    cd client
