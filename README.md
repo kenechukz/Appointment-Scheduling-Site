@@ -9,6 +9,6 @@ A sample hair business page to showcase appointment scheduling capabilities and 
 3. Start the React development server:
 
    ```bash
-   cd my-app2
+   cd client
    npm start
 
