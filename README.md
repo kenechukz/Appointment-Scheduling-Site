@@ -1,2 +1,14 @@
-# Appointment-Scheduling-Site
-A sample hair business page to show off appointment scheduling capabilities and email automation
+# Appointment Scheduling Site
+
+A sample hair business page to showcase appointment scheduling capabilities and email automation.
+
+## How to Run
+
+1. Open **XAMPP**.
+2. Start the **Apache** and **MySQL** servers.
+3. Start the React development server:
+
+   ```bash
+   cd my-app2
+   npm start
+

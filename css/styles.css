@@ -1,0 +1,191 @@
+
+
+html {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 32%, rgba(74,11,63,1) 54%, rgba(56,5,50,1) 71%, rgba(94,54,136,1) 85%, rgba(5,106,126,1) 100%);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    height: 2500px;
+}
+
+nav {
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+
+.photo-gallery {
+    margin: auto;
+    height: 1500px;
+    width: 1600px;
+    background-image: url("../assets/backdrop.jpg");
+    box-shadow: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 50px;
+}
+
+.photo-item {
+    height: 90%;
+    width: 90%;
+    background-color: grey;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.photo-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.main-div {
+    background-color: #1115;
+    height: 35  vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.container {
+    margin: auto;
+    background-color: white;
+    width: 50vw;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 85%;
+}
+
+.hairstyle-item {
+    margin: auto;
+    background-color: white;
+    width: 50vw;
+    height: 250px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 5%;
+}
+
+.hairstyle-img img{
+    width: 200px;
+    height: 90%;
+    margin: 10px;
+}
+
+.hairstyle-txt {
+    margin-top: 15px;
+}
+
+.hairstyle-txt p{
+    margin: 4%;
+}
+
+.hairstyle-txt button {
+    height: 30px;
+    margin-top: 40px;
+}
+
+.container p {
+    margin: auto;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#boy-container {
+    display: flex;
+}
+
+#girl-container {
+    display: flex;
+}
+
+#loc-container {
+    display: flex;
+}
+
+.appointment-container {
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-color: white;
+    width: 20vw;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 2px;
+}
+
+
+.appointment-container button {
+    width: 100px;
+    height: 50px;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.appointment-details {
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+    width: 50vw;
+    height: 700px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 85%;
+}
+
+.appointment-details form {
+    margin-top: 20%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.appointment-details input {
+    margin-bottom: 30px;
+}
+
+.appointment-details label {
+    font-weight: 600;
+}
+
+.appointment-details button {
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+#details p{
+    font-size: small;
+}
+
+
+
