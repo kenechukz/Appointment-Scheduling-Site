@@ -1,6 +1,6 @@
 # Appointment Scheduling Site
 
-A sample hair business page to showcase appointment scheduling capabilities and email automation.
+A sample hair business page to showcase appointment scheduling capabilities and email sending automation.
 
 
 ## Prequisites
